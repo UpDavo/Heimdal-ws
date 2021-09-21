@@ -9,7 +9,7 @@ import { InitialDataResolver } from 'app/app.resolvers';
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
 export const appRoutes: Route[] = [
     // Redirect empty path to '/analiticas/resumen'
-    { path: '', pathMatch: 'full', redirectTo: 'dashboards/project' },
+    { path: '', pathMatch: 'full', redirectTo: '/analiticas/resumen' },
 
     // Redirect signed in user to the '/analiticas/resumen'
     //
@@ -19,7 +19,7 @@ export const appRoutes: Route[] = [
     {
         path: 'signed-in-redirect',
         pathMatch: 'full',
-        redirectTo: 'dashboards/project',
+        redirectTo: '/analiticas/resumen',
     },
 
     // Auth routes for guests

@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 import { ApexOptions } from 'ng-apexcharts';
-import { ProjectService } from 'app/modules/admin/analiticas/resumen/project.service';
+import { ProjectService } from 'app/modules/admin/dashboards/project/project.service';
 
 @Component({
     selector: 'project',

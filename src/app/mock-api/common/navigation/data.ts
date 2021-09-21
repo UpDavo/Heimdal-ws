@@ -41,28 +41,28 @@ export const defaultNavigation: FuseNavigationItem[] = [
         children: [
             {
                 id: 'apps.academy',
-                title: 'Academy',
+                title: 'Instrucciónes',
                 type: 'basic',
                 icon: 'heroicons_outline:academic-cap',
                 link: '/apps/academy',
             },
             {
                 id: 'apps.contacts',
-                title: 'Contacts',
+                title: 'Contactos y actividad',
                 type: 'basic',
                 icon: 'heroicons_outline:user-group',
                 link: '/apps/contacts',
             },
             {
                 id: 'apps.notes',
-                title: 'Notes',
+                title: 'Configurar mensaje',
                 type: 'basic',
                 icon: 'heroicons_outline:pencil-alt',
                 link: '/apps/notes',
             },
             {
                 id: 'apps.scrumboard',
-                title: 'Scrumboard',
+                title: 'Variables',
                 type: 'basic',
                 icon: 'heroicons_outline:view-boards',
                 link: '/apps/scrumboard',
